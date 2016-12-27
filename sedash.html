@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>SEDASH</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="jquery.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <link rel="stylesheet" href="bootstrap-select.min.css">
+    <script src="bootstrap-select.min.js"></script>
+    <!-- Custom styles for this template -->
+    <link href="sticky-footer-navbar.css" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="#"><font size="15px">SE-DASH</font></a>
+		</div>
+		<ul class="nav navbar-nav">
+      		<li class="active"><a href="#">Home</a></li>
+      		<li><a href="#">DNS</a></li>
+      		<li><a href="#">Redfish</a></li>
+      		<li><a href="#">Others</a></li>
+    	</ul>
+	</div>
+</nav>
+
+<div class="container">
+
+	<label for="server-name">Server Name:</label>
+	<div class="form-group">
+	<select class="selectpicker" multiple data-live-search="true" data-max-options="3">
+		<option data-tokens="dal">dal-server1.walmart.com</option>
+		<option data-tokens="dfw">dfw-server1.walmart.com</option>
+		<option data-tokens="dfw">dfw-server2.walmart.com</option>
+		<option data-tokens="dal">dal-server2.walmart.com</option>
+		<option data-tokens="dal">dal-server3.walmart.com</option>
+		<option data-tokens="oneops">oneops-server1.walmart.com</option>
+		<option data-tokens="oneops">oneops-server2.walmart.com</option>		
+	</select>
+	</div>
+	
+	<label for="hardware-name">HardWare Name:</label>
+	<div class="form-group">
+	<select class="selectpicker" multiple data-live-search="true" data-max-options="3">
+		<option data-tokens="hard">FirmWare Upgrade</option>
+		<option data-tokens="hard">Password Reset</option>
+		<option data-tokens="hard">Os Related</option>
+		<option data-tokens="hard">Hardware Health Checkup</option>
+		<option data-tokens="hard">Others</option>		
+	</select>
+	</div>
+	<input type="submit" class="btn btn-primary btn-lg" value="Submit" />
+</div>
+<br><br>
+
+	<footer class="footer">
+      <div class="container">
+        <span class="text-muted">&copy;<a href="https://www.facebook.com/ashishkgrich">Ashishkumar Gupta</a> 2016-2017</span>
+      </div>
+    </footer>
+</body>
+</html>
